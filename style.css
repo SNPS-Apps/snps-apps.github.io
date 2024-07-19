@@ -8,6 +8,12 @@ div.logo img {
 	vertical-align: middle;
 }
 
+div.appstable {
+	overflow: auto;
+	height: 75%;
+	margin-top: 10px;
+}
+
 table {
   font-family: cooper;
   border-collapse: collapse;
@@ -15,9 +21,17 @@ table {
   width: 100%;
 }
 
-td, th {
-  border: 2px solid #000000;
+td {
+  border: 2px solid #b6072a;
   text-align: left;
+  padding: 8px;
+}
+
+th {
+  border: 2px solid #b6072a;
+  background-color: #b6072a;
+  color: white;
+  text-align: middle;
   padding: 8px;
 }
 
